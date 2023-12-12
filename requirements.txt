@@ -1,0 +1,6 @@
+slack_sdk>=3.0
+slack_bolt>=1.6.1
+certifi
+python_dotenv
+requests
+google-cloud-translate==2.0.1
