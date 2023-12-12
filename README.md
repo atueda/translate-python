@@ -53,7 +53,6 @@ python3 main.py
 Generate a URL for your local developer environment using one of the options below:
 
 -   Start up ngrok with `ngrok http 8080` if you have a paid account start with: `ngrok http 8080 -subdomain MY-URL`
--   Run ta-cloud-proxy with `ssh -N -R 0.0.0.0:8080:localhost:8080 ec2-user@YOUR-INSTANCE-ID` - remember to update the AppPort in your samconfig.toml to 8080 first
 
 ## Install the Slack App
 
